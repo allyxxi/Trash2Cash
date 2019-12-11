@@ -1,0 +1,40 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content class="myview">
+    <ion-card class="welcome-card">
+      <img src="http://theafact.com/wp-content/uploads/2017/12/trash-feature.jpg" alt="" />
+      <ion-card-header>
+        <ion-card-subtitle></ion-card-subtitle>
+        <ion-card-title>Welcome to Trash to Cash!</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>You can now transform your trash to cash with our help!</p>
+      </ion-card-content>
+    </ion-card>
+    <form action="action_page.php" method="post">
+    <ion-card>
+      <div class="container">
+        <label for="uname"><b>Account Number</b></label>
+        <input type="text" placeholder="Enter Account Number" name="uname" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <a routerLink="/dashboard"><button class="loginbutton" > Login </button></a>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+    </ion-card>
+    </form>
+    <form action="action_page.php" method="post">
+      <ion-card>
+        <div class="container">
+          <label for="uname"><b>Not yet a member?</b></label>
+          <button class= "registerbutton" type="submit">Register</button>
+        </div>
+      </ion-card>
+      </form>
+</ion-content>
+

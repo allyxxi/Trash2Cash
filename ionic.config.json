@@ -1,0 +1,7 @@
+{
+  "name": "Trash2Cash",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
